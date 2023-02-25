@@ -12,4 +12,4 @@ const createMarkup = function (markupContent) {
 
 galleryContrainerRef.innerHTML = createMarkup(galleryItems);
 
-lightbox = new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250, });
+new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250, });
